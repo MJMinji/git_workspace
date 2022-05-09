@@ -1,4 +1,4 @@
-package src.com.kh.git;
+package com.kh.git;
 
 /**
  * SCM Software Configuration Management
@@ -9,15 +9,15 @@ package src.com.kh.git;
  * 
  * 버전관리 프로그램
  * - server-client : 중앙저장소를 공유한 각각의 클라이언트(개발자)에서 저장소의 일부만 가져와서 작업후, 중앙저장소에 반영
- * 		- subversion
+ *       - subversion
  * - 분산형 : 참여하는 각각의 클라이언트에서 전체저장소에 대한 복제본을 가지고 작업.
- * 		- git
+ *       - git
  * 
  *
  */
 public class Helloworld {
 
 	public static void main(String[] args) {
-		
+		 System.out.println("Hello world!");
 	}
 }
